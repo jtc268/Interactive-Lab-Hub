@@ -1,23 +1,22 @@
-### Deliverables for this lab are: 
-1. **Storyboard**
+### Storyboard
 
-1.) User wants to go to bed, needs sleep now
-2.) Gets in bed
-3.) Tries to turn off light
-3.) Light turns red instead of turning off - error
-4.) Why? Because the front door isn't locked
-6.) Goes to lock front door
-7.) Light turns back to normal color so user can see when returning to bed
-8.) User returns to bed, and turns off light. Light turns off successfully since the front door is locked
+1. User wants to go to bed, needs sleep now
+2. Gets in bed
+3. Tries to turn off light
+3. Light turns red instead of turning off - error
+4. Why? Because the front door isn't locked
+6. Goes to lock front door
+7. Light turns back to normal color so user can see when returning to bed
+8. User returns to bed, and turns off light. Light turns off successfully since the front door is locked
 
-2. **Sketch**
+### Sketch
  ![Sketch](https://user-images.githubusercontent.com/89586838/131934452-9b41c3f3-6a0f-4b01-b9e8-02559df1f2b4.jpg)
 
-3. **Reflections** from acting out out scenario:
+### Reflections** from acting out out scenario:
   - Initially, I thought that the light should turn off after the door was locked, but I realized the person trying to go to sleep wouldn't be able to see when they were returning to bed.
   - When someone lays down to go to sleep, sometimes they need the light to stay on longer after they lay down. So I staged the switch close enough to reach from bed to simulate a lamp.
 
-4. **Video sketch of the prototyped interaction:** https://youtu.be/w-EmX2z1SGo
+### Video sketch of the prototyped interaction:** https://youtu.be/w-EmX2z1SGo
 
 ### The Report
 This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
