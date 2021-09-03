@@ -1,3 +1,4 @@
+![Story sketch](https://user-images.githubusercontent.com/89586838/131934452-9b41c3f3-6a0f-4b01-b9e8-02559df1f2b4.jpg)
 
 
 # Staging Interaction
@@ -9,8 +10,6 @@ There is no actor that plays Tinkerbell--her existence in the play comes from th
 For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. 
 
 _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
-
-
 
 ## Prep
 
@@ -28,34 +27,25 @@ _Make sure you read all the instructions and understand the whole of the laborat
 6. Found objects and materials -- You will have to costume your phone so that it looks like some other devices. These materials can include doll clothes, a paper lantern, a bottle, human clothes, a pillow case, etc. Be creative!
 
 ### Deliverables for this lab are: 
-1. Storyboard
-Storyboard 
+1. Storyboard 
 
-1.) Wants to go to bed, need sleep now
+1.) User wants to go to bed, needs sleep now
 2.) Gets in bed
 3.) Tries to turn off light
 3.) Light turns red instead of turning off - error
 4.) Why? Because the front door isn't locked
 6.) Goes to lock front door
 7.) Light turns back to normal color so user can see when returning to bed
-8.) User returns to bed, and turns off light. Light turns off successfully since front door is locked
+8.) User returns to bed, and turns off light. Light turns off successfully since the front door is locked
 
+2. Sketch: https://imgur.com/a/PkhwOlW
 
-Discoveries from acting out out scenario:
-1.) Initially, I thought that the light should turn off after the door was locked, but I realized the person trying to go to sleep wouldn't be able to see when they were returning to bed.
-2.) When someone lays down to go to sleep, sometimes they need the light to stay on longer after they lay down. So I staged the switch close enough to reach from bed to simulate a lamp.
+3. Reflections from acting out out scenario:
+  - Initially, I thought that the light should turn off after the door was locked, but I realized the person trying to go to sleep wouldn't be able to see when they were returning to bed.
+  - When someone lays down to go to sleep, sometimes they need the light to stay on longer after they lay down. So I staged the switch close enough to reach from bed to simulate a lamp.
 
-![Story Sketch]("Lab 1/Story sketch.jpg")
+4. Video sketch of the prototyped interaction: https://youtu.be/w-EmX2z1SGo
 
-![Story Sketch](https://imgur.com/a/PkhwOlW)
-
-Story Sketch: https://imgur.com/a/PkhwOlW
-
-Video sketch of the prototyped interaction: https://youtu.be/w-EmX2z1SGo
-
-1. Sketches/photos of costumed device
-1. Any reflections you have on the process
-1. Video sketch of the prototyped interaction
 1. Submit the items above in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
 
 ### The Report
