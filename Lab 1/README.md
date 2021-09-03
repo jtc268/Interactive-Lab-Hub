@@ -29,6 +29,30 @@ _Make sure you read all the instructions and understand the whole of the laborat
 
 ### Deliverables for this lab are: 
 1. Storyboard
+Storyboard 
+
+1.) Wants to go to bed, need sleep now
+2.) Gets in bed
+3.) Tries to turn off light
+3.) Light turns red instead of turning off - error
+4.) Why? Because the front door isn't locked
+6.) Goes to lock front door
+7.) Light turns back to normal color so user can see when returning to bed
+8.) User returns to bed, and turns off light. Light turns off successfully since front door is locked
+
+
+Discoveries from acting out out scenario:
+1.) Initially, I thought that the light should turn off after the door was locked, but I realized the person trying to go to sleep wouldn't be able to see when they were returning to bed.
+2.) When someone lays down to go to sleep, sometimes they need the light to stay on longer after they lay down. So I staged the switch close enough to reach from bed to simulate a lamp.
+
+![Story Sketch]("Lab 1/Story sketch.jpg")
+
+![Story Sketch](https://imgur.com/a/PkhwOlW)
+
+Story Sketch: https://imgur.com/a/PkhwOlW
+
+Video sketch of the prototyped interaction: https://youtu.be/w-EmX2z1SGo
+
 1. Sketches/photos of costumed device
 1. Any reflections you have on the process
 1. Video sketch of the prototyped interaction
