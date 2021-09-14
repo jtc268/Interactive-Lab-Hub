@@ -42,8 +42,8 @@ The goal of the player is go to bed safely. Safety means that the front door of 
  ![Sketch](https://user-images.githubusercontent.com/89586838/131934452-9b41c3f3-6a0f-4b01-b9e8-02559df1f2b4.jpg)
 
 
-
 **Feedback Check**
+
 I received feedback from our Zoom breakout group during class, including TA Rei Lee, on the idea and a few people agreed this would be a valuable solution. People seemed to agree that forgetting to lock the front door can be common and having a reminder before bed would be valuable.
 
 ## Part B. Act out the Interaction
@@ -63,18 +63,19 @@ I received feedback from our Zoom breakout group during class, including TA Rei 
 
 - The chosen device was a philips hue smart light system in the end. I experimented with tinkerbelle as well.
 
-**Give us feedback on Tinkerbelle.**
+**Feedback on Tinkerbelle.**
 
 - Sometimes when restarting the application, the port wasn't freed. I had to learn how to free ports.
 
 ## Part D. Wizard the device
+
 My collaborator, Jennie, manually controlled the philips hue smart lights in coordination with the user actions for the video.
 
-**Include your first attempts at recording the set-up video here.**
+**First attempts at recording the set-up video**
 
 First attempt at video - https://youtu.be/0k1K3RUhpGk. 
 
-**Show the follow-up work here.**
+**Follow-up work**
 
 The practice video ended up very similar to the final video. We just worked on timings, framing, and exposure. We also made sure the actions were mapped to the storyboard and the actor showed the appropriate emotions and gaze direction.
 
@@ -85,6 +86,7 @@ The practice video ended up very similar to the final video. We just worked on t
 https://youtu.be/w-EmX2z1SGo
 
 **Collaborators**
+
 My girlfriend, Jennie, was the videographer and light controller! Many thanks.
 
 ## Staging Interaction, Part 2
@@ -96,6 +98,7 @@ My girlfriend, Jennie, was the videographer and light controller! Many thanks.
 "...I really like your design, and I think your design would be adopted by many of those who care about safety a lot. I can also see how versatile your design is from its potential to apply to all kinds of smart home safety alerts!
 
 **Thoughts from feedback:**
+
 The light turning red could annoy other roommates. If the final design only turns the light red in the bedroom of the person going to bed, and not the main hallway, this concern can be mitigated.
 
 Applying a red light or different color lights depending on the home safety concern could be a great idea for iterations in the future!
