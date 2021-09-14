@@ -14,10 +14,6 @@ F) [Record the interaction](#part-f-record)
 
 ## Part A. Plan 
 
-### Sketch
-
- ![Sketch](https://user-images.githubusercontent.com/89586838/131934452-9b41c3f3-6a0f-4b01-b9e8-02559df1f2b4.jpg)
-
 _Setting:_ 
 This interaction is happening in a mock "bedroom" near my front door. The office chair is staged as a bed.
 
@@ -26,6 +22,9 @@ I am in the setting with my girlfriend. We both care about the front door being 
 
 _Activity:_ 
 The user going to bed is very tired and not thinking about all of their responsibilities as part of their routine to go to bed. Something as simple as locking the front door can be easily forgotton and become a safety issue. Building in a mechanism to prevent a safety issue (the front door being unlocked) is the goal.
+
+_Goals:_
+The goal of the player is go to bed safely. Safety means that the front door of the apartment is locked when sleeping.
 
 ### Storyboard
 
@@ -38,8 +37,11 @@ The user going to bed is very tired and not thinking about all of their responsi
 7. Light turns back to normal color so user can see when returning to bed
 8. User returns to bed, and turns off light. Light turns off successfully since the front door is locked
 
-_Goals:_
-The goal of the player is go to bed safely. Safety means that the front door of the apartment is locked when sleeping.
+### Sketch
+
+ ![Sketch](https://user-images.githubusercontent.com/89586838/131934452-9b41c3f3-6a0f-4b01-b9e8-02559df1f2b4.jpg)
+
+
 
 **Feedback Check**
 I received feedback from our Zoom breakout group during class, including TA Rei Lee, on the idea and a few people agreed this would be a valuable solution. People seemed to agree that forgetting to lock the front door can be common and having a reminder before bed would be valuable.
