@@ -70,9 +70,11 @@ My collaborator, Jennie, manually controlled the philips hue smart lights in coo
 
 **Include your first attempts at recording the set-up video here.**
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+First attempt at video - https://youtu.be/0k1K3RUhpGk. 
 
 **Show the follow-up work here.**
+
+The practice video ended up very similar to the final video. We just worked on timings, framing, and exposure. We also made sure the actions were mapped to the storyboard and the actor showed the appropriate emotions and gaze direction.
 
 ## Part F. Record
 
@@ -80,7 +82,7 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 https://youtu.be/w-EmX2z1SGo
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+**Collaborators**
 My girlfriend, Jennie, was the videographer and light controller! Many thanks.
 
 ## Staging Interaction, Part 2
