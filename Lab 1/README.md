@@ -91,12 +91,11 @@ The light turning red could annoy other roommates. If the final design only turn
 
 Applying a red light or different color lights depending on the home safety concern could be a great idea for iterations in the future!
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
-3) We will be grading with an emphasis on creativity. 
+\*\***Documentation for V2***\*\*
+After acting out the interaction again, I thought that a user may not know what the red light means. How could I point to the problem? (e.g. the lock is unlocked) I used a laser that would theorhetically be triggered from the error. This way, the user would know why the light turned red and potentially how to address the error. This would open the door to expand the funcionality of the system to say, find lost items around the house or resolve other errors. A red light can indicate an error and the laser could show you exactly where the error was coming from.
 
-\*\***Documentation for V2**\*\*
-Storyboard 
-video 
-photos of the prototype
+Storyboard for V2 - Laser
+![IMG_0017](https://user-images.githubusercontent.com/89586838/133180745-0148b446-bfcd-4bbf-937a-d331c8e5524c.jpg)
+
+Video demonstrating addition of laser indicator for lock (when unlocked) 
+https://youtu.be/AdA0c4MfJBQ
