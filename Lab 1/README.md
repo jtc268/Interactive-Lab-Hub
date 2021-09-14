@@ -12,8 +12,6 @@ E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
 
-Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
-
 ## Part A. Plan 
 
 ### Sketch
