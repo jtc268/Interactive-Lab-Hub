@@ -78,9 +78,9 @@ https://youtu.be/w-EmX2z1SGo
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 My girlfriend, Jennie, was the videographer and light controller! Many thanks.
 
-# Staging Interaction, Part 2
+## Staging Interaction, Part 2
 
-\*\***Peer Feedback***\*\*
+***Peer Feedback***
 
 "Great idea! one thing to consider is if you have roommates, that might become a privacy issue or might disturb someone's sleep."
 
@@ -91,8 +91,8 @@ The light turning red could annoy other roommates. If the final design only turn
 
 Applying a red light or different color lights depending on the home safety concern could be a great idea for iterations in the future!
 
-\*\***Documentation for V2***\*\*
-After acting out the interaction again, I thought that a user may not know what the red light means. How could I point to the problem? (e.g. the lock is unlocked) I used a laser that would theorhetically be triggered from the error. This way, the user would know why the light turned red and potentially how to address the error. This would open the door to expand the funcionality of the system to say, find lost items around the house or resolve other errors. A red light can indicate an error and the laser could show you exactly where the error was coming from.
+***Documentation for V2***
+After acting out the interaction again, I thought that a user may not know what the red light means. How could I point to the problem? (e.g. the lock is unlocked) I used a laser that would theorhetically be triggered from the error. This way, the user would know why the light turned red and potentially how to address the error. This would open the door to expand the funcionality of the system to say, find lost items around the house or resolve other errors. A red light can indicate an error and the laser could show you exactly where the error was coming from. The second benefit of using a laser would potentially be to remove the red error light completely. This could address the peer feedback I received about the red light being disutrbing to roommates. The laser seems less obstrusive.
 
 Storyboard for V2 - Laser
 ![IMG_0017](https://user-images.githubusercontent.com/89586838/133180745-0148b446-bfcd-4bbf-937a-d331c8e5524c.jpg)
