@@ -1,4 +1,4 @@
-import time
+from time import strftime, sleep
 import subprocess
 import digitalio
 import board
@@ -64,8 +64,16 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-
+    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
+    time = strftime("%m/%d/%Y %H:%M:%S")
+    print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
+    #comment out the below if you want to keep printing the time over and over, kind of funny
+    print("\r", end="", flush=True)
+    
+    y = top
+    draw.text((x, y), time, font=font, fill="#FFFFFF")
+    
+    
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    sleep(1)
