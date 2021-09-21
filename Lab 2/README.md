@@ -17,7 +17,7 @@ Note to git push from Pi:
 ## Part F. 
 ## Video of modified barebones PiClock
 
-\*\*\***https://youtu.be/IYWK9f-9JfI**\*\*\*
+https://youtu.be/IYWK9f-9JfI
 
 ## Part G. 
 ## Brainstorm sketch
