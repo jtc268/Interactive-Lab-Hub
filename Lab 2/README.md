@@ -5,13 +5,6 @@
 
 [netflix_clock.py](netflix_clock.py) was created by modifying screen_clock.py to keep track of months with a new unit, "netflixes". One Netflix is the monetary cost for one month of netflix. Watch your time and money wither away with this awesome display clock!
 
-Note to git push from Pi:
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git add .
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git push
-```
-
 ## Part F. 
 ## Video of modified barebones PiClock
 
@@ -23,6 +16,13 @@ https://youtu.be/IYWK9f-9JfI
 ![Lab 2 Brainstorm_1](https://user-images.githubusercontent.com/89586838/134098525-b9ef9e30-356c-4c2d-90aa-ce263a1ad449.jpg)
 
 # Prep for Part 2
+
+Saving note to git push from Pi:
+```
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git add .
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git push
+```
 
 1. Pick up remaining parts for kit.
 
