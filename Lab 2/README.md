@@ -5,7 +5,7 @@
 
 netflix_clock.py was created by modifying screen_clock.py to keep track of months with a new unit, "netflixes". One Netflix is the monetary cost for one month of netflix. Watch your time and money wither away with this awesome display clock!
 
-\*\*\***netflix_clock.py**\*\*\*
+[netflix_clock.py](netflix_clock.py)
 
 Note to git push from Pi:
 ```
