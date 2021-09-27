@@ -24,8 +24,24 @@ Saving note to git push from Pi:
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git push
 ```
 
-1. Pick up remaining parts for kit.
 
+1. Pick up remaining parts for kit.
+After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
+
+
+## Part F. 
+## Make a short video of your modified barebones PiClock
+
+\*\*\***Take a video of your PiClock.**\*\*\*
+
+## Part G. 
+## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+
+# Prep for Part 2
+
+1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
+  
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 # Lab 2 Part 2

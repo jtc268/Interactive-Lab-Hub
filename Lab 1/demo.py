@@ -1,3 +1,3 @@
 ## This line is comment
-## for during the class
-print ("Hello World")
+## for demo during the class
+print("Hello World")
