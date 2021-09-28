@@ -1,8 +1,9 @@
-from time import strftime, sleep
+from time import strftime, sleep, time
 from datetime import datetime
 import subprocess
 import digitalio
 import board
+import textwrap
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 
@@ -54,7 +55,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 50)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 30)
 smallerFont = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 30)
 
 # Turn on the backlight
@@ -62,7 +63,7 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
-monthlyCost = 8.99
+halfSecondCost = .0000017361
 totalCost = 0.00
 
 while True:
@@ -70,24 +71,24 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=(229, 9, 20))
 
     # Netflix
-    today = datetime.now()
-        
-    # Check for first of month - Uncomment when ready for production
-    #
-    # if today.day == 1:
-    #     totalCost += monthlyCost
-    #     print(str(totalCost))
-        
-    # Demo: 5 second timer - Remove before shipping
-    if ((today.second % 5) == 0):
-        totalCost += monthlyCost
-        print(str(totalCost))
-        
+    totalCost += halfSecondCost
+    
+    # Get 25 decimal places
+    totalCostAsString = '{:.25f}'.format(totalCost)
+    print(totalCostAsString)
+    
+    # Wrap the text for exta intensity
+    totalCostSplit = textwrap.wrap(totalCostAsString, 9)
+         
     y = top
-    draw.text((x + 10, y + 10), "Netflixes", font=smallerFont, fill="#FFFFFF")
-    draw.text((x + 35, y + 45), "$" + str(totalCost), font=font, fill="#FFFFFF")
+    draw.text((x + 5, y + 10), "Netflix Damage", font=smallerFont, fill="#FFFFFF")
+    draw.text((x + 20, y + 45), "$" + totalCostSplit[0], font=font, fill="#FFFFFF")
+    draw.text((x + 35, y + 72), totalCostSplit[1], font=font, fill="#FFFFFF")
+    draw.text((x + 35, y + 99), totalCostSplit[2], font=font, fill="#FFFFFF")
     
     
     # Display image.
     disp.image(image, rotation)
-    sleep(1)
+    
+    # Increment every .5 seconds
+    sleep(.5 - time() % .5)
