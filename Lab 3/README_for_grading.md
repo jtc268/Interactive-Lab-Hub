@@ -1,7 +1,7 @@
 ## Part 1.
 ### Text to Speech 
 
-\*\***My shell file that greets me by name! https://github.com/jtc268/Interactive-Lab-Hub/blob/c436744b4faf3e2affb66ae26dd07d151c0430f3/Lab%203/pi_greeting_lab_3.sh**\*\*
+\*\***My Shell file that greets me by name! Lab 3/pi_greeting_lab_3.sh***\*\*
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
