@@ -1,69 +1,33 @@
-## Part 1.
-### Text to Speech 
 
-**My Shell file that greets me by name!** https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/pi_greeting_lab_3.sh
-
-Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
-
-### Speech to Text
-
-Now examine the `speech2text` folder. We are using a speech recognition engine, [Vosk](https://alphacephei.com/vosk/), which is made by researchers at Carnegie Mellon University. Vosk is amazing because it is an offline speech recognition engine; that is, all the processing for the speech recognition is happening onboard the Raspberry Pi. 
-
-In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`
-
-One thing you might need to pay attention to is the audio input setting of Pi. Since you are plugging the USB cable of your webcam to your Pi at the same time to act as speaker, the default input might be set to the webcam microphone, which will not be working for recording.
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
-Bonus Activity:
-
-If you are really excited about Speech to Text, you can try out [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) and [voice2json](http://voice2json.org/install.html)
-There is an included [dspeech](./dspeech) demo  on the Pi. If you're interested in trying it out, we suggest you create a seperarate virutal environment for it . Create a new Python virtual environment by typing the following commands.
-
-```
-pi@ixe00:~ $ virtualenv dspeechexercise
-pi@ixe00:~ $ source dspeechexercise/bin/activate
-(dspeechexercise) pi@ixe00:~ $ 
-```
-
-### Serving Pages
-
-In Lab 1, we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
-
-```
-pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $ python server.py
- * Serving Flask app "server" (lazy loading)
- * Environment: production
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: on
- * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 162-573-883
-```
-From a remote browser on the same network, check to make sure your webserver is working by going to `http://<YourPiIPAddress>:5000`. You should be able to see "Hello World" on the webpage.
-
 ### Storyboard
 
-Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
+Research shows that keeping your laptop battery at 80% charge prolongs the life and capacity of the battery. When the laptop is sitting at home for prolonged period, it should only be charged to 80%. Apple has adopted this methodology as default for all mac laptops running the latest operating system. Remembering when to charge the laptop to full before an event can be difficult since charging from 80-100% takes about an hour. You need to think in advnace. Using sound / voice confirmation for the reminder and interaction to charge the laptop feels like an appropriate use of the sound/voice interaction medium. If you're busy with something else (say showering, or getting dressed) you either won't remember, or won't have time to engage directly with your laptop to "charge to full". The computer would check your calendar to see if you had any events coming up and say:
 
 \*\***Post your storyboard and diagram here.**\*\*
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+
+Imagined Diagloue:
+
+Scenario 1:
+Computer: You have an event in 1 hour, your laptop is currently 80% charged. Should I charge to full?
+Human: Yes
+Computer: Charging to full now.
+
+Scenario 2:
+If human says "No"
+Computer: Okay.
 
 \*\***Please describe and document your process.**\*\*
 
 ### Acting out the dialogue
 
-Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
+Zoom recording to test the interaction:
+https://youtu.be/700MsZwSrlE
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
-
-### Wizarding with the Pi (optional)
-In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
-
-\*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+\*\***The dialogue was different than I expected. The respndent say "Yeah, sure." instead of the expected "Yes" or "No" and I know I will have to add some extra vocabulary to the response validation code. I also didn't expect the respondent to say "thanks". I may consider adding "you're welcome" before the response saying "Charging to full now". I was glad that the respondent understood the prompt and wanted their battery charged.**\*\*
 
 # Lab 3 Part 2
 
