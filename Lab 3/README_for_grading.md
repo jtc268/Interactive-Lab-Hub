@@ -35,7 +35,8 @@ Computer: Okay.
 ### Acting out the dialogue
 
 Zoom recording to test the interaction:
-https://youtu.be/700MsZwSrlE
+
+https://youtu.be/4cKgaBUcMus
 
 \*\***The dialogue was different than I expected. The respndent say "Yeah, sure." instead of the expected "Yes" or "No" and I know I will have to add some extra vocabulary to the response validation code. I also didn't expect the respondent to say "thanks". I may consider adding "you're welcome" before the response saying "Charging to full now". I was glad that the respondent understood the prompt and wanted their battery charged.**\*\*
 
