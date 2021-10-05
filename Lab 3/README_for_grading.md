@@ -1,6 +1,6 @@
 
 
-\*\***Shell script that asks how many pets the user has and records the count: https://github.com/jtc268/Interactive-Lab-Hub/blob/02f3cb47fe3dbe45f57321387b222c414b99ddcf/Lab%203/pet_question.sh**\*\*
+\*\***Shell script that asks how many pets the user has and records the count:**\*\* https://github.com/jtc268/Interactive-Lab-Hub/blob/02f3cb47fe3dbe45f57321387b222c414b99ddcf/Lab%203/pet_question.sh
 
 ### Storyboard
 
