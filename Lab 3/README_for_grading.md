@@ -2,7 +2,7 @@
 Testing voice greeting with Pi:
 https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/pi_greeting_lab_3.sh
 
-\*\***Shell script that asks how many pets the user has and records the count:**\*\* 
+Shell script that asks how many pets the user has and records the count:
 https://github.com/jtc268/Interactive-Lab-Hub/blob/02f3cb47fe3dbe45f57321387b222c414b99ddcf/Lab%203/pet_question.sh
 
 Python program that runs the interation:
@@ -17,12 +17,17 @@ Research shows that keeping your laptop battery at 80% charge prolongs the life 
 Imagined Diagloue:
 
 Scenario 1:
+
 Computer: You have an event in 1 hour, your laptop is currently 80% charged. Should I charge to full?
+
 Human: Yes
+
 Computer: Charging to full now.
 
 Scenario 2:
+
 If human says "No"
+
 Computer: Okay.
 
 \*\***My process included finding a real user pain point before thinking about if voice/sound could help solve the problem. I found many voice interaction ideas to be annoying for the user. Generally I found myself feeling that if a computer is going to start talking, it better be extremely useful. You risk a feature becoming very annoying for a user if a real problem isn't being solved. The majority of my ideas felt gimmicky until I landed on the laptop battery charge problem. Apple introduced a feature without enough options/support. Someone with a busy lifestyle may be left with a partially charged battery when they need a full charge the most.**\*\*
