@@ -1,13 +1,18 @@
 
+Testing voice greeting with Pi:
+https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/pi_greeting_lab_3.sh
 
-\*\***Shell script that asks how many pets the user has and records the count:**\*\* https://github.com/jtc268/Interactive-Lab-Hub/blob/02f3cb47fe3dbe45f57321387b222c414b99ddcf/Lab%203/pet_question.sh
+\*\***Shell script that asks how many pets the user has and records the count:**\*\* 
+https://github.com/jtc268/Interactive-Lab-Hub/blob/02f3cb47fe3dbe45f57321387b222c414b99ddcf/Lab%203/pet_question.sh
 
-### Storyboard
+Python program that runs the interation:
+https://github.com/jtc268/Interactive-Lab-Hub/blob/cd7af297bff0b1b6e17fe8d95cc2a7a9226d9619/Lab%203/test_words_pet.py
+
+### Storyboard and research
 
 Research shows that keeping your laptop battery at 80% charge prolongs the life and capacity of the battery. When the laptop is sitting at home for prolonged period, it should only be charged to 80%. Apple has adopted this methodology as default for all mac laptops running the latest operating system. Remembering when to charge the laptop to full before an event can be difficult since charging from 80-100% takes about an hour. You need to think in advnace. Using sound / voice confirmation for the reminder and interaction to charge the laptop feels like an appropriate use of the sound/voice interaction medium. If you're busy with something else (say showering, or getting dressed) you either won't remember, or won't have time to engage directly with your laptop to "charge to full". The computer would check your calendar to see if you had any events coming up and say:
 
 \*\***Post your storyboard and diagram here.**\*\*
-
 
 Imagined Diagloue:
 
@@ -20,7 +25,7 @@ Scenario 2:
 If human says "No"
 Computer: Okay.
 
-\*\***Please describe and document your process.**\*\*
+\*\***My process included finding a real user pain point before thinking about if voice/sound could help solve the problem. I found many voice interaction ideas to be annoying for the user. Generally I found myself feeling that if a computer is going to start talking, it better be extremely useful. You risk a feature becoming very annoying for a user if a real problem isn't being solved. The majority of my ideas felt gimmicky until I landed on the laptop battery charge problem. Apple introduced a feature without enough options/support. Someone with a busy lifestyle may be left with a partially charged battery when they need a full charge the most.**\*\*
 
 ### Acting out the dialogue
 
