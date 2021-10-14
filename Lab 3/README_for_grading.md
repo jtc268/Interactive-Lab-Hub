@@ -42,42 +42,77 @@ https://youtu.be/4cKgaBUcMus
 
 # Lab 3 Part 2
 
-For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
+**Reflection**
 
-## Prep for Part 2
+I reflected on the interaction and feedback and decided that reminding the user to charge a laptop battery by calendar events wouldn't be a reliable trigger for this function. If someone just has a zoom calendar event, they don't want a voice assistant to ask them to charge their battery, since they will be staying home. I thought about signals within a house that would tell a computer when a user is officialy "leaving" to go somewhere else about 40 minutes before it happened. 4- minutes is about the time it takes to charge a laptop battery from 80% to 100%. One thing I usually do before leaving the house is shower. If I could detect when the user is showering, I could ask them if they want to charge their laptop battery to full. (Remember, the battery % on an apple laptop at home, plugged in, is always at 80% to preserve the battery per Apple defaults)
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+**New storyboard:**
 
-## Prototype your system
+1. User is in a rush and needs to get to campus for class
+2. The user frequently forgets to charge laptop battery to full, since the Apple default is to "hold" the battery at 80% while plugged in at home. This is annoying since the user needs fully battery power for class!
+3. User need to shower before they leave, and it takes some time to get ready after that
+4. User closes shower curtain
+5. Voice assistant: "It sounds like you're getting ready to go. Would you like me to charge your laptop battery to full?"
+6. User: "Yes!"
+7. Voice assistant: "charging battery to full now"
+8. User is happy :) and feels prepared
 
-The system should:
-* use the Raspberry Pi 
-* use one or more sensors
-* require participants to speak to it. 
+I need to figure out how to detect if a shower curtain is closed. I detrmined a gyro sensor would be appropriate for this job if I could attach the gyro or Pi to the shower curtain.
 
-*Document how the system works*
+**Gyro setup**
 
-*Include videos or screencaptures of both the system and the controller.*
+My goal is to detect movement of a closed shower curtain.
 
-## Test the system
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+I used the Adafruit MPU-6050 6 DoF Accel & Gyro Sensor and connected it to a Raspberry Pi via stemma QT connector and cable through the SparkFun Qwiic OLED Display. (already installed) I then installed libraries on my Pi via https://github.com/adafruit/Adafruit_CircuitPython_LSM303_Accel. Running the "Usage Example" then provided the gyro readings. I rubber banded the gyro onto my Pi case and attached the entire device to the shower curtain, as shown below.
 
-Answer the following:
+![image](https://user-images.githubusercontent.com/89586838/137240644-880e6a51-1f07-4420-b856-86f80508bea0.png)
+
+
+**Documentation: Data Interpretation and Usage**
+
+The first time taking data from the gyro, I was not familiar with tuples. I had to look this up and now I understand how to select which axis from the gyro I'd like to read and calculate against. (e.g. x, y, and z axis on gyro for acceleration would equal 0,1, or 3 in a tuple)
+
+With my girlfriend Jennie's help to wizard the interaction (thanks for the help!) one monitored the gyro readings and the other opened and closed the shower curtain to determine which axis on the gyro would determine a "close". I landed on the code below to detect a "close". It worked quite well. The x-axis would drop below 1 when the curtain accelerated to the closed position.
+
+![image](https://user-images.githubusercontent.com/89586838/137240680-ac991d9b-7fcc-4317-94e9-b7df07f2ec98.png)
+
+Next, it was time to set up the shell script to run in the following sequence:
+
+	1. Shower curtain closed (detected by gyro)
+	2. Speaker asks if you want to charge laptop battery - "It sounds like you're getting ready to go. Would you like me to charge your laptop battery to full?"
+	3. Speaker listens and records for positive affirmation
+	4. User says "Yes"
+	5. "Charging your laptop battery to full."
+
+The end result of the shell script is below:
+
+python3 charge_alert_gyro.py
+sleep 2
+espeak -ven+f2 -k5 -s150 --stdout  "It sounds like you're getting ready to go. Would you like me to charge your laptop battery to full?" | aplay
+arecord -D hw:2,0 -f cd -c1 -r 48000 -d 5 -t wav recorded_mono.wav
+python3 charge_alert_listener.py recorded_mono.wav
+espeak -ven+f2 -k5 -s150 --stdout  "Charging your laptop battery to full." | aplay
+
+Through acting out the interaction, I learned that I needed to put a wait step e.g. "sleep 2" after the shower curtain closed, otherwise the user wouldn't be able to hear the message. The message started playing as the shower curtain was closing, and the shower curtain made a loud sound. It was best to wait until the user finished closing the curtain so they could hear the message.
+
+For the speech listener, I didn't know how to read the format and figured out it was JSON. Ihen figured out how to parse the JSON and that was successful. Now I can trigger more conversational elements from my shell script.
+
+**Here is a video showcasing the pain point and use case for the device.**
+
+https://www.youtube.com/watch?v=R6AoLRRHxrQ
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+\*\**The gyro sensor worked much better than expected to measure if a shower curtain has closed or moved. I was delighted by this sensor. The voice assistant was not loud enough and sometimes felt slower than something like an Alexa or Google home voice assistant. The power cable needed for the Pi was dargging around on the floor by the shower and I feel this could be improved.*\*\*
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+\*\**Overall the voice controller was great and easy to develop on. It made it easy to alert a user and then take commands on actions for next steps. After the controller listens, to respond it felt a little slow. The words the controller heard weren't always exact, e.g. "yea" versus "yes". This caused a deeper dictionary build out and matching system for what I called a "positive affirmation" in this project.*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+\*\**THere are always more nuanced signals to pick up on from a user at home if you are trying to cater to their life. They have many habits and home interactions that can be detected. Wizarding allows you to see how users are acting in the moment so you can adjust sensors, timings, and what the bot actually says to intengrate more tightly into their life. This is very important for voice interactions since they can be very annoying or not helpful.*\*\*
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+\*\**My system could be expanded upon to pick up on flags when a user is about to leave the house. If we know when the user is getting ready to leave, many systems can be triggered to make sure they don't forget items, forget to charge their batteries, forget to turn the oven off, etc. I would add a temperature sensor near the oven to detect high ambient temperature and ask the user if they'd like to turn the oven off since they're getting ready to leave the house. *\*\*
