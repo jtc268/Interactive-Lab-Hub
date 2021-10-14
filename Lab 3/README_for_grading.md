@@ -42,9 +42,11 @@ https://youtu.be/4cKgaBUcMus
 
 # Lab 3 Part 2
 
+
 **Reflection**
 
 I reflected on the interaction and feedback and decided that reminding the user to charge a laptop battery by calendar events wouldn't be a reliable trigger for this function. If someone just has a zoom calendar event, they don't want a voice assistant to ask them to charge their battery, since they will be staying home. I thought about signals within a house that would tell a computer when a user is officialy "leaving" to go somewhere else about 40 minutes before it happened. 4- minutes is about the time it takes to charge a laptop battery from 80% to 100%. One thing I usually do before leaving the house is shower. If I could detect when the user is showering, I could ask them if they want to charge their laptop battery to full. (Remember, the battery % on an apple laptop at home, plugged in, is always at 80% to preserve the battery per Apple defaults)
+
 
 **New storyboard:**
 
@@ -58,6 +60,7 @@ I reflected on the interaction and feedback and decided that reminding the user 
 8. User is happy :) and feels prepared
 
 I need to figure out how to detect if a shower curtain is closed. I detrmined a gyro sensor would be appropriate for this job if I could attach the gyro or Pi to the shower curtain.
+
 
 **Gyro setup**
 
@@ -97,9 +100,16 @@ Through acting out the interaction, I learned that I needed to put a wait step e
 
 For the speech listener, I didn't know how to read the format and figured out it was JSON. Ihen figured out how to parse the JSON and that was successful. Now I can trigger more conversational elements from my shell script.
 
+
 **Here is a video showcasing the pain point and use case for the device.**
 
 https://www.youtube.com/watch?v=R6AoLRRHxrQ
+
+
+**The core files of Part 2 are listed below**
+https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/charge_alert.sh
+https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/charge_alert_gyro.py
+https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/charge_alert_listener.py
 
 ### What worked well about the system and what didn't?
 \*\**The gyro sensor worked much better than expected to measure if a shower curtain has closed or moved. I was delighted by this sensor. The voice assistant was not loud enough and sometimes felt slower than something like an Alexa or Google home voice assistant. The power cable needed for the Pi was dargging around on the floor by the shower and I feel this could be improved.*\*\*
