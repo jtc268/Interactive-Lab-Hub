@@ -107,6 +107,7 @@ https://www.youtube.com/watch?v=R6AoLRRHxrQ
 
 
 **The core files of Part 2 are listed below**
+
 https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/charge_alert.sh
 https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/charge_alert_gyro.py
 https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/charge_alert_listener.py
