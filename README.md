@@ -9,7 +9,7 @@ Please place links here to the README.md's for each of your labs here:
 
 [Lab 3. Chatterboxes](https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%203/README_for_grading.md)
 
-[Lab 4. Ph-UI!!!](Lab%204/readme_for_grading.md)
+[Lab 4. Ph-UI!!!](https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%204/README_for_grading)
 
 Lab 5. Observant Systems<!--[](Lab%205/)-->
 
