@@ -185,6 +185,9 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+Design 5 raised the question if a foil wrapped container would work with the capacative sensor. I tested it before moving forward with the idea as shown in the video below.
+https://youtu.be/J8uYPUukQi4
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 
@@ -241,6 +244,17 @@ Think about how you want to present the information about what your sensor is se
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+
+Pictures of prototype
+
+![image](https://user-images.githubusercontent.com/89586838/137835501-79ea6e1e-126c-400d-8cb3-c3fd02ccbe75.png)
+
+![image](https://user-images.githubusercontent.com/89586838/137835470-a5fc4ec8-a39b-42be-8631-632c01164978.png)
+
+![image](https://user-images.githubusercontent.com/89586838/137835447-40f1989f-b620-411b-a08f-64c8b248a9b9.png)
+
+Video of the interaction with cardboard prototype
+https://youtu.be/Tuscs7qTD1E
 
 
 LAB PART 2
