@@ -168,12 +168,20 @@ Connect it to your pi with Qwiic connector and try running the example script to
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
 
+All sensors are tested and working! It was great that you could daisy chain all of the sensors together.
+
+![image](https://user-images.githubusercontent.com/89586838/137832490-bd844bca-8504-41bb-a6bb-a47d12d7c869.png)
+
+
 ### Part C
 ### Physical considerations for sensing
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+
+![IMG-0022](https://user-images.githubusercontent.com/89586838/137832168-539fb7be-c90c-4c24-baf6-2f78f272dda4.jpg)
+![IMG-0023](https://user-images.githubusercontent.com/89586838/137832197-8641af2f-f854-40a2-8752-6af47a77bf8b.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
@@ -187,6 +195,7 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 Here is an Pi with a paper faceplate on it to turn it into a display interface:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
+
 
 
 This is fine, but the mounting of the display constrains the display location and orientation a lot. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
@@ -219,6 +228,9 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+![IMG-0024](https://user-images.githubusercontent.com/89586838/137832254-98226bb4-1e2a-401d-9120-b9afdf6bb83e.jpg)
+![IMG-0025](https://user-images.githubusercontent.com/89586838/137832259-19c70d9b-e83a-48a0-ace4-55cb955a4bdc.jpg)
+![IMG-0026](https://user-images.githubusercontent.com/89586838/137832265-8156c33d-07d9-4373-8c7c-84e6b6944b50.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
