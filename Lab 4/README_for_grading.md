@@ -185,11 +185,15 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-Design 5 raised the question if a foil wrapped container would work with the capacative sensor. I tested it before moving forward with the idea as shown in the video below.
+I found myself asking how the sensors would be mounted and how they would be positioned to collect accurate data. For exmaple, to measure how many "cheeses" were left in the cheese dispenser (sketch 2), I figured using distance from the top of the cheese stack would be easiest to increment the amount of cheeses that have gone missing. Then I would subtract that distance from the total of the maximum cheese stack to create a cheese counter. In Sketch 3, the jar filling detector, I realized I would not only need sensor to test if the jar was full, but I would need a way to turn off the faucet once done. I scrapped this idea since I didn't have a way of turning off the faucet. I also would need to test if the motion direction sensor would be able to detect water flowing upward in a clear container. Design 5 raised the question if a foil wrapped container would work with the capacative sensor. I tested this "key drop" interaction with just foil before moving forward with the idea as shown in the video below.
+
 https://youtu.be/J8uYPUukQi4
+
+The keys successfully tripped the capacitive sensor!
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+Design 5 shows an item collector using the capacitive touch sensor, which indicates with red or green light if the item is in the "basket". I chose design 5 to move forward with because it seemed the most useful on a day-to-day basis. Design 5 will help me to keep track of items I need every day, like keys and airpods.
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -235,11 +239,19 @@ Think about how you want to present the information about what your sensor is se
 ![IMG-0025](https://user-images.githubusercontent.com/89586838/137832259-19c70d9b-e83a-48a0-ace4-55cb955a4bdc.jpg)
 ![IMG-0026](https://user-images.githubusercontent.com/89586838/137832265-8156c33d-07d9-4373-8c7c-84e6b6944b50.jpg)
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to answer those questions?\*\*\***
+
+Do I really need light on the screen to display if items are there or not? What happens if the indicator for "item present" is opposite if I code the system to toggle the state? Would I need a button to reset the state? What if my items aren't in the baskets before bedtime? Should I add a speaker to let the user know to find their items before bed in case they lost something during the course of a day? What if the user can't see the items in the baskets? Would they need a light indicator then to know for sure? What if light indicators are useless? 
+
+I need to physically prototype the position of the basket inside or outside the box as well as the screen position. This way I can interact with the device to see which features may be neccessary.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+I ultimately chose display design 1 to integrate into my physical prototype.
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The size of the device is based on how many items I need to remember to put away each day. If I lose track of a few key items (including keys and airpods) I cannot leave the house. I figured the device can be less than a foot wide for these small items and sit on top of a desk. The baskets that hold items need to sense when the items are dropped and be highly accessible for dropping/grabbing interactions. When standing further away from the device to check if items are present or not, the screen would have to be on the SIDE of the device (not the top). Using 50% of the screen to display basket status (red/green) felt like it'd be visible from across the room if I wanted to check if my items are stored properly. Sometimes the itmes would drop below the basket walls e.g. keys, and the indiciator light would remind me that the keys are there.
 
 Build a cardbord prototype of your design.
 
