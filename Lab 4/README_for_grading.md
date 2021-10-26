@@ -1,6 +1,6 @@
 # Ph-UI!!!
 
-All sensors are tested and working! It was great that you could daisy chain all of the sensors together.
+All sensors are tested and working! Daisy chaining all of the sensors together was delightfully easy.
 
 ![image](https://user-images.githubusercontent.com/89586838/137832490-bd844bca-8504-41bb-a6bb-a47d12d7c869.png)
 
@@ -36,13 +36,17 @@ Design 5 shows an item collector using the capacitive touch sensor, which indica
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to answer those questions?\*\*\***
 
-Do I really need light on the screen to display if items are there or not? What happens if the indicator for "item present" is opposite if I code the system to toggle the state? Would I need a button to reset the state? What if my items aren't in the baskets before bedtime? Should I add a speaker to let the user know to find their items before bed in case they lost something during the course of a day? What if the user can't see the items in the baskets? Would they need a light indicator then to know for sure? What if light indicators are useless? 
+- Do I really need light on the screen to display if items are there or not? 
+- What happens if the indicator for "item present" is opposite if I code the system to toggle the state? 
+- Would I need a button to reset the state? What if my items aren't in the baskets before bedtime? 
+- Should I add a speaker to let the user know to find their items before bed in case they lost something during the course of a day? What if the user can't see the items in the baskets? 
+- Would they need a light indicator then to know for sure? What if light indicators are useless? 
 
 I need to physically prototype the position of the basket inside or outside the box as well as the screen position. This way I can interact with the device to see which features may be neccessary.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
-I ultimately chose display design 1 to integrate into my physical prototype.
+I ultimately chose display design number 1 to integrate into my physical prototype.
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
@@ -88,6 +92,12 @@ Progress pictures:
 ![20211025_202646](https://user-images.githubusercontent.com/89586838/138790447-3ffe1af8-dd9e-4ba1-9a20-67e759cb6a47.jpg)
 ![20211025_202657](https://user-images.githubusercontent.com/89586838/138790448-6bef38f5-5a4a-4cd6-a8c3-61acacadc18b.jpg)
 
+Final form before powered on:
+
+![image](https://user-images.githubusercontent.com/89586838/138800483-1b77a397-33f9-443e-9683-6c80b979cf1f.png)
+![image](https://user-images.githubusercontent.com/89586838/138800538-378f0fef-95f6-43bd-a3b6-caf4a1662443.png)
+
+
 Visual change log, internals:
 
 ![image](https://user-images.githubusercontent.com/89586838/138790528-0ca1312e-62d2-458c-af23-2c720abd1f8e.png)
@@ -114,6 +124,10 @@ Examples of states:
 
 ### Adding keys: https://youtu.be/ibrr9OlsYwg
 - Lights go out per bin. This is satisfying for the user.
+
+### "Lights out" Program
+- Capacitive sensors trigger lights to toggle on/off on 50% of the OLED screen.
+- https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%204/lights_out.py
 
 In the future, I may make the lights blink to indicate more urgency for the user to get organized. A blinking light is annoying and the user will want to turn it off only by putting their things away.
 
