@@ -339,7 +339,7 @@ Examples of states:
 ![image](https://user-images.githubusercontent.com/89586838/138798042-a94b964c-9a57-48cd-b952-1118b5c38d29.png)
 ![image](https://user-images.githubusercontent.com/89586838/138798165-1af20344-672d-48fb-834b-9d4972447d0e.png)
 ![image](https://user-images.githubusercontent.com/89586838/138798064-a59347c8-dfd6-4f92-a749-089cae2fb763.png)
-![image](https://user-images.githubusercontent.com/89586838/138798103-2eb13a38-d611-4753-801a-6e37c9d4086b.png)
+![image](https://user-images.githubusercontent.com/89586838/138798894-c032dec5-8b2c-4d94-a200-ace31273261f.png)
 
 ### Final interactions ("Acts like")
 Removing keys: https://youtu.be/NcZUdo75FOk
