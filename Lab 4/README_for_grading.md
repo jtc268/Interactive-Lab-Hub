@@ -312,12 +312,12 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 Alternative design sketches:
 ![image_6487327 (2)](https://user-images.githubusercontent.com/89586838/138789271-51e08f03-52a4-4bc7-895f-656da2292be4.JPG)
 
-
+### "Looks like": shows how the device should look, feel, sit, weigh, etc.
 Committing to Idea 5 from Part 1, and optimizing the design. Diving into continued prototyping! I didn't like the alternative ideas as much since they lacked function. I would like a device that helps with my day to day life.
 ![image_6487327 (1)](https://user-images.githubusercontent.com/89586838/138789279-fa4a2f5c-26f3-463e-8988-6f092d14f022.JPG)
 ![image_6487327](https://user-images.githubusercontent.com/89586838/138789284-df40c576-9d88-423c-91c8-f2e0dd3d68f8.JPG)
 
-Work in progress to recess the "bins", move screen to the top, and turn the device black since it needs to be more aesthetically pleasing than a cardboard box. This device is something that will sit in the home, out in the open.
+Work in progress is shown below to recess the "bins", move screen to the top, and turn the device black since it needs to be more aesthetically pleasing than a cardboard box. This device is something that will sit in the home, out in the open.
 
 Progress pictures:
 ![20211025_202646](https://user-images.githubusercontent.com/89586838/138790447-3ffe1af8-dd9e-4ba1-9a20-67e759cb6a47.jpg)
@@ -327,8 +327,36 @@ Visual change log, internals:
 
 ![image](https://user-images.githubusercontent.com/89586838/138790528-0ca1312e-62d2-458c-af23-2c720abd1f8e.png)
 
+Testing capacitive sensors in new box design with key drops:
+https://youtu.be/prOnuft0rPQ
 
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+### "Works like": shows what the device can do
+Various states of the device:
+- Light OFF indicates item is in bin - user responsibility is complete
+- Light ON indicates item is **not** in bin - indicates the user has not completed their responsibility to stay organized. This is like a notification to complete a task.
+
+Examples of states:
+![image](https://user-images.githubusercontent.com/89586838/138798042-a94b964c-9a57-48cd-b952-1118b5c38d29.png)
+![image](https://user-images.githubusercontent.com/89586838/138798165-1af20344-672d-48fb-834b-9d4972447d0e.png)
+![image](https://user-images.githubusercontent.com/89586838/138798064-a59347c8-dfd6-4f92-a749-089cae2fb763.png)
+![image](https://user-images.githubusercontent.com/89586838/138798103-2eb13a38-d611-4753-801a-6e37c9d4086b.png)
+
+### Final interactions ("Acts like")
+Removing keys: https://youtu.be/NcZUdo75FOk
+-Light is on triggering the user to take care of there disorganization problem. Put your things where they belong!
+
+Adding keys: https://youtu.be/ibrr9OlsYwg
+-Lights go out per bin. This is satisfying for the user.
+
+In the future, I may make the lights blink to indicate more urgency for the user to get organized. A blinking light is annoying and the user will want to turn it off only by putting their things away.
+
+### Some issues worth noting:
+- I had overclocked my raspberry pi and running in the box, it frequently hit 80C. Outside of the box it was always under 70C. Noting to underclock the Pi for such applications inside enclosures.
+- The capacitive touch sensors don't always work consistently with key drops. Adjusting the insulating layer of cardboard inside the box did help with cross talk. However, key drops and removals still weren't perfectly consistent. (or trigger was too sensitive) See blooper reels below!
+  -  Blooper 1 https://youtu.be/tR5WC_N6n9s
+  -  Blooper 2 https://youtu.be/3hxXqPuFrto
+
+
+
+
 
