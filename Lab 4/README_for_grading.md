@@ -308,6 +308,18 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
+
+ALternative design sketches:
+![image_6487327 (2)](https://user-images.githubusercontent.com/89586838/138789271-51e08f03-52a4-4bc7-895f-656da2292be4.JPG)
+![image_6487327 (1)](https://user-images.githubusercontent.com/89586838/138789279-fa4a2f5c-26f3-463e-8988-6f092d14f022.JPG)
+
+Committing to Idea 5 from Part 1, and optimizing the design. Diving into continued prototyping!
+![image_6487327](https://user-images.githubusercontent.com/89586838/138789284-df40c576-9d88-423c-91c8-f2e0dd3d68f8.JPG)
+
+Work in progress to recess the "bins", move screen to the top, and turn the device black since it needs to be more aesthetically pleasing than a cardboard box. This device is something that will sit in the home, out in the open.
+
+
+
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
