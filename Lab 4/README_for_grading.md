@@ -319,6 +319,13 @@ Committing to Idea 5 from Part 1, and optimizing the design. Diving into continu
 
 Work in progress to recess the "bins", move screen to the top, and turn the device black since it needs to be more aesthetically pleasing than a cardboard box. This device is something that will sit in the home, out in the open.
 
+Progress pictures:
+![20211025_202646](https://user-images.githubusercontent.com/89586838/138790447-3ffe1af8-dd9e-4ba1-9a20-67e759cb6a47.jpg)
+![20211025_202657](https://user-images.githubusercontent.com/89586838/138790448-6bef38f5-5a4a-4cd6-a8c3-61acacadc18b.jpg)
+
+Visual change log, internals:
+
+![image](https://user-images.githubusercontent.com/89586838/138790528-0ca1312e-62d2-458c-af23-2c720abd1f8e.png)
 
 
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
