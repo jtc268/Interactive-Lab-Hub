@@ -101,33 +101,27 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
 Algorithm number 1 seems great at classifying borders and objects with distinct shapes. I could use this as a bird detector. A bird's shape is distinct like the toy I placed in the image below and different from say, a leaf. I could make a bird alert system so I can go look out the window to view birds only when they come.
+
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/89586838/139770798-412430f4-a4ae-4990-a2fe-985f04418b78.png">
 
 Algorithm number 2 is detecting faces. This could be used to detect people when there are other moving objects in spaces. Potentially to count people walking across a city street to measure where foot traffic is the highest. You could then deploy traffic guards to protect pedestrians. The algorithm could distinguish between moving cars and people and have a reliable count.
+
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/89586838/139771196-d0677f96-d76d-476f-8e63-e328903cbce4.png">
 
 Algorithm number 3 had an interesting point mapping to a continued flow detection. I could imagine this being used to trace movement paths of people to improve walking routes of a park.
+
 <img width="678" alt="image" src="https://user-images.githubusercontent.com/89586838/139771739-37466ebc-26ec-4952-86bc-20555b8cd40b.png">
 
 This can be used as a bird's eye view in a park, and streak colors where people like to walk. Then we can design better city path systems that map to where people truly want to walk and optimize walking UX.
+
 <img width="586" alt="image" src="https://user-images.githubusercontent.com/89586838/139771827-e9554443-59a2-4974-b85c-4e328d03d8bb.png">
 
-Algorithm number 4 seemed to sloppily detect objects and seemed the most laggy. I think this could be used in a very controlled environment to count how many objects entered a frame that were not touching each other. Through my tests of holding up objects, the object dtector had trouble disconnecting mount points (e.g. my fingers) from the actual objects.
+
+Algorithm number 4 seemed to detect objects and seemed the most laggy. I think this could be used in a very controlled environment to count how many objects entered a frame that were not touching each other. Through my tests of holding up objects, the object dtector had trouble disconnecting mount points (e.g. my fingers) from the actual objects. It's important to count how many bees are pollinating flowers on average to see if the bee population is going down in certain areas. I think this could be a useful application for ecosystem conservation initiatives.
 
 <img width="655" alt="image" src="https://user-images.githubusercontent.com/89586838/139772286-00a04dab-9da4-4bef-b4a5-f42aa931dd15.png">
 
-Algorithm number 4 seemed to detect objects and seemed the most laggy. I think this could be used in a very controlled environment to count how many objects entered a frame that were not touching each other. Through my tests of holding up objects, the object dtector had trouble disconnecting mount points (e.g. my fingers) from the actual objects. It's important to count how many bees are pollinating flowers on average to see if the bee population is going down in certain areas. I think this could be a useful application for ecosystem conservation initiatives.
 <img width="655" alt="image" src="https://user-images.githubusercontent.com/89586838/139772271-14cf3cd3-c579-4501-a461-82494c0d1b9c.png">
-
-<img width="655" alt="image" src="https://user-images.githubusercontent.com/89586838/139772189-3acfc4a0-ff01-41a1-a47b-183f01ee4580.png">
-
-<img width="678" alt="image" src="https://user-images.githubusercontent.com/89586838/139771739-37466ebc-26ec-4952-86bc-20555b8cd40b.png">
-
-
-
-
-
-
 
 #### MediaPipe
 
