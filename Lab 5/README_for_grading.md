@@ -167,9 +167,11 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
+For hand tracking, this would be perfect for muting the volume on the tv when I need instant silence. The pointer to thumb pinch or "quiet coyote" would instantly mute the tv if you get a phone call or just need some silence. It would be a delightful feature to have.
+
+A second idea would be to make a stretch timer automatically start when you bend over to touch your toes. It would count down from 20 seconds to make sure you get a good stretch. The count down would start automatically when you were say, 40% bent over. This would have to be tested.
+
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
-
-
 
 #### Teachable Machines
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple. However, its simplicity is very useful for experimenting with the capabilities of this technology.
