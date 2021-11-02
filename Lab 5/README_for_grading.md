@@ -205,6 +205,12 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 
+Teachable machines screenshot - program running
+
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/89586838/139774712-f91fd973-fe6f-48d7-a4cd-2829cf5bbae0.png">
+
+I would use teachable machines on captive birds to classify a blue jay versus other types  of birds. The machine could classify blue jays among other birds in a given environment. This would be useful for birders that are measuring yearly migration increases or dropoffs for species that come through NYC.
+
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
@@ -230,6 +236,8 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
+I would like to use the object detection algorithm to classify birds outside my window. I see three types 1.) Bluejay 2.) Pigeon 3.) Robin. If a bluejay comes, I'd like an announcement from a speaker - "bluejay". That way I know to go to the window to look at the bluejay, my favorite bird.
+
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
 ### Part C
@@ -237,31 +245,33 @@ Try out different interaction outputs and inputs.
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it what it is supposed to do? - it's supposed to say "bluejay" when a bluejay lands outside my window on the fire escape.
+1. When does it fail? - I expect it to fail when a moving object, like a leaf, floats by. We need to distinguish between leaves and other birds.
+1. When it fails, why does it fail? - It fails based on incorrect color detection or objects moving like birds.
+1. Based on the behavior you have seen, what other scenarios could cause problems? - the lighting being too dark could cause the object detection algorithm to miss the bird. Also, if the bluejay is standing on an object, it could "connect" to that object and no longer "look" like a bird.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? - No, if the machine says "bluejay" then they will think there is a bluejay. If they go to the window and it's not there, they would probably think they missed it.
+1. How bad would they be impacted by a miss classification? - It wouldn't matter too much. It would just be a false alarm for a bluejay and cause the user to to walk to the window.
+1. How could change your interactive system to address this? - We could say "bluejay, 50% confident!" or "bluejay, 100% confident!" that way the user knows to rush to the window or walk slowly and prepare to be disappointed.
+1. Are there optimizations you can try to do on your sense-making algorithm. - Yes, we can optimize with the motion detection algorithm to distinguish between a bluejays movement and another bird's movements if that's possible.
 
 ### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+* What can you use X for? - To count bluejays for conservation of the species or to detect bluejays for viewing pleasure.
+* What is a good environment for X? - An apartment window in an area with bluejays.
+* What is a bad environment for X? - An area that has a lot of bluejays, since they would be easy to spot without the detector.
+* When will X break? - If a bird that looks similar to a bluejay (or any bird) enters the frame. Perhaps even a leave or inclement weather could trigger the alert. This has to be tested.
+* When it breaks how will X break? - It will say "bluejay" and there won't be a bluejay. The user will be disappointed.
+* What are other properties/behaviors of X? - The device will have an auto mute function for quiet hours.
+* How does X feel? - If a weighted device that can sit on a window pain. It has a clear directional indicator on which end points outside.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+I ran out of time to make a video for this lab.
 
 ### Part 2.
 
