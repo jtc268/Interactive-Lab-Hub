@@ -11,7 +11,7 @@ Please place links here to the README.md's for each of your labs here:
 
 [Lab 4. Ph-UI!!!](https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%204/README_for_grading.md)
 
-[Lab 5. Observant Systems](Lab%205/)
+[Lab 5. Observant Systems](https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Lab%205/README_for_grading.md)
 
 Lab 6. Where We Go One, We Go All<!--[](Lab%206/)-->
 
