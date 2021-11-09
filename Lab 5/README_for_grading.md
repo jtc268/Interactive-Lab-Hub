@@ -163,6 +163,11 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 "Quiet coyote" didn't work by pinching middle finger to thumb, so I pinched pointer to thumb :) and got 0%. Great!
 
+Then I tried again and got it! After closely reviewing the youtube video and code.
+
+<img width="1170" alt="image" src="https://user-images.githubusercontent.com/89586838/140866025-720f2345-c396-4929-b25f-87230776c1cd.png">
+
+
 <img width="656" alt="image" src="https://user-images.githubusercontent.com/89586838/139773547-c10bf734-70fb-4d8f-b22e-1d8df464a9e5.png">
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
