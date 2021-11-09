@@ -277,4 +277,8 @@ I ran out of time to make a video for this lab.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+After exploring the bird detector more, I decided that detecting a bluejay specifically would be very difficult for this lab (and my current skill levels) and pivoted to a compeltely different interaction.
+
+I will be making a "Red Light Green Light" game interaction using the hand interaction algorithm. "Quiet coyote"/pinched fingers will be STOP (as if the participant stops running in the original game - RED LIGHT) and open fingers will be GO. (as if the participant is running in the original game - GREEN LIGHT)
+
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
