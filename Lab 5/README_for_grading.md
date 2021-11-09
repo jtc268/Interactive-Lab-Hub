@@ -295,5 +295,27 @@ Plan:
 - If fingers are not pinched within 1 second of a "red light", a buzzer sounds, signaling loss of the game
 - If game participant makes it through all 5 rounds, a winning bell sound is played. yay!
 
+Setup pictures 
+
+![image](https://user-images.githubusercontent.com/89586838/140865173-9d560936-36d7-4c71-9da5-3f4a6f1f1321.png)
+
+![image](https://user-images.githubusercontent.com/89586838/140865214-39114a9e-f0de-4cba-93b9-593617f9892c.png)
+
+![image](https://user-images.githubusercontent.com/89586838/140865245-74d79026-6d3a-4228-82e8-e5fbccdf3a16.png)
+
+![image](https://user-images.githubusercontent.com/89586838/140865229-f223386e-8506-4841-9503-c4d65f161c2a.png)
+
+![image](https://user-images.githubusercontent.com/89586838/140865196-ec2810d4-27e5-4fc5-8ad0-1d39e38fdc38.png)
+
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+Test video 1
+
+https://www.youtube.com/watch?v=A8l48cINfGg
+
+Test Video 2
+
+https://youtu.be/_T2-0dIqHmI
+
+I was not able to change the OLED screen between red and green and complete the full game sequence but attempted it and commented on the code in redlight_greenlight.py within this project.
