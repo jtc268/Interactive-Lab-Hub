@@ -279,6 +279,21 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 After exploring the bird detector more, I decided that detecting a bluejay specifically would be very difficult for this lab (and my current skill levels) and pivoted to a compeltely different interaction.
 
-I will be making a "Red Light Green Light" game interaction using the hand interaction algorithm. "Quiet coyote"/pinched fingers will be STOP (as if the participant stops running in the original game - RED LIGHT) and open fingers will be GO. (as if the participant is running in the original game - GREEN LIGHT)
+I will be making a "Red Light Green Light" game interaction using the hand interaction algorithm. This idea is from the children's game where one leader says "red light" for stop and "green light" for go. Participants start a distance from the leader and the goal is to reach the leader. "Quiet coyote"/pinched fingers will be STOP (as if the participant stops running in the original game - RED LIGHT) and open fingers will be GO. (as if the participant is running in the original game - GREEN LIGHT)
+
+Some inspiration was taken from the Netflix series, Squid Game. A picture of the more intense version of Red Light Green Light is below. I will not explain the game since it involves spoilers.
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gamesradar.com%2Fsquid-games-red-light-green-light-gets-an-unreal-engine-version%2F&psig=AOvVaw2-C_O3EikBNDboN2Oe5yI9&ust=1636515233224000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMi2-bysivQCFQAAAAAdAAAAABAD![image](https://user-images.githubusercontent.com/89586838/140857399-1a2b9c8b-3ec0-404a-bce8-29af898a87cf.png)
+
+Plan:
+- Make replica of girl robot from Squid Game
+- Place OLED screen behind her eyes to turn red or green, maybe half of the screen can cover each eye to make it scary
+- First iteration: game starts from command line. Second iteration, game starts by pressing a "game start" button
+- A game participant shows pinched index finger with thumb, signaling "ready to start game"
+- After 5 seconds of observing pinched fingers, Girl robot says "Green light!", starting the game
+- 5x random time increments between 2 and 7 seconds will alternate "Red light" and "Green light" commands
+- If fingers are not pinched within 1 second of a "red light", a buzzer sounds, signaling loss of the game
+- If game participant makes it through all 5 rounds, a winning bell sound is played. yay!
+
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
