@@ -283,7 +283,7 @@ I will be making a "Red Light Green Light" game interaction using the hand inter
 
 Some inspiration was taken from the Netflix series, Squid Game. A picture of the more intense version of Red Light Green Light is below. I will not explain the game since it involves spoilers.
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gamesradar.com%2Fsquid-games-red-light-green-light-gets-an-unreal-engine-version%2F&psig=AOvVaw2-C_O3EikBNDboN2Oe5yI9&ust=1636515233224000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMi2-bysivQCFQAAAAAdAAAAABAD![image](https://user-images.githubusercontent.com/89586838/140857399-1a2b9c8b-3ec0-404a-bce8-29af898a87cf.png)
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/89586838/140858331-05422e3e-8c6f-4bf8-9892-677c36ee3a7a.png">
 
 Plan:
 - Make replica of girl robot from Squid Game
