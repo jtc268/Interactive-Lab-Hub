@@ -1,5 +1,7 @@
-## Joseph Cera jtc268
-## Agustin Forero agf48 (for part E)
+Joseph Cera jtc268
+Agustin Forero agf48 (for part E)
+
+
 
 # Little Interactions Everywhere
 
