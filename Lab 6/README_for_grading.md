@@ -90,6 +90,16 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1.) Sending a request for a coffee to a local barista by tapping a button on your desk, the coffee would then be delivered. The button would send a message of "address, 1 coffee" to the barista. If the person hit the button twice or multiple in a row (within a 10 second window) the message would say "address, 2 coffees" etc. This would be ideal for someone that just likes their coffee black.
+
+2.) If someone faced to their right side and spoke into a directional mic, the message could be recorded and streamed to MQTT. A group of employees working from home would hear this message in their apartment. Announcment type messages could easily be send just by turning your head, similar to the old days when you would just turn and talk to a group of employees in the office.
+
+3.) Someone could type "play X band" (any artist) at their friends house to cheer them up. The message would be posted to MQTT then received by a friend's machine to start Spotify.
+
+4.) A wake up button could be pressed, and a signal sent to MQTT. A person that has slept in could be physically woken (remotely) by pressing a button. One press makes a sound, two presses shoots a rubber band at the person, and three presses shoots water at the person. If you keep pressing the button water would keep shooting out. Each shot would correspond with sound as well, for the best chance at waking someone up.
+
+5.) A lighting sync system would randomize colored light in two homes. Couples in long distance relationships could feel more synced since they're living the same, unique experience together. A random color picker would stream to MQTT and each member in the couple would subscribe to the stream to change their smart lights to the same color.
+
 ### Part C
 ### Streaming a Sensor
 
@@ -124,7 +134,7 @@ I saw a my capacitive touch sensors streaming data into MQTT explorer. One was a
 
 I chose the distance sensor. The idea was to set a pokeball "trap" for Bagon the pokemon. If Bagon gets close enough to the trap, it could catch him! The sensor measures how far Bagon the pokemon was from my distance sensor and if he gets less than 50mm away, the trap would close on him. If you set a remote pokemon trap, you could monitor it and see when you wanted to try to catch! See video below of the test:
 
-##Bagon Trap Video!
+### Bagon Trap Video!
 
 https://youtu.be/frU7MlvovEc
 
@@ -202,7 +212,8 @@ The coin attached to the 3d printed dog would be part of a crypto analyst's arra
 
 **\*\*\*4. Document the working prototype in use.\*\*\***
 
-##Dogecoin Buy Light Interaction Demo
+### Dogecoin Buy Light Interaction Demo
+
 https://youtu.be/Opvp9KRdRm4
 
 Thanks to Agustin Forero (agf48) for being an awesome partner!
