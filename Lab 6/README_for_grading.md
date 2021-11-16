@@ -218,6 +218,14 @@ Output (OLED screen): Lights up every time the Dogecoin "button" is pressed from
 
 The coin attached to the 3d printed dog would be part of a crypto analyst's array of high profile coins one could buy. I imagine the 3d printed dog (doge) would stand out amongst others and the analyst would know that this means "dogecoin". They would tap the coin as the "button" to send the buy signal to the receivers.
 
+Interaction 1: (Crypto Analyst, sender)
+
+<img width="632" alt="image" src="https://user-images.githubusercontent.com/89586838/141881787-908c893f-62d5-4fe6-809d-020adca9ae1b.png">
+
+Interaction 2: (Crypto buyer, receiver)
+
+<img width="630" alt="image" src="https://user-images.githubusercontent.com/89586838/141881845-ee6afdea-e59d-4373-a19a-1fec88891a42.png">
+
 **\*\*\*4. Document the working prototype in use.\*\*\***
 
 ### Dogecoin Buy Light Interaction Demo
