@@ -198,6 +198,7 @@ The world of cryptocurrency is confusing and many people want to join in on the 
 
 Actors:
 1.) Crypto Analyst (sender)
+
 2.) Crypto buyer (receiver)
 
 Input (capacitive touch sensor): Metal coin attached to capacitive touch center via alligator clip. Coin is attached to 3d printed "doge" figure so the analyst knows which coin they are recommending to buy. One touch = one flash on the recipient's screen. 
