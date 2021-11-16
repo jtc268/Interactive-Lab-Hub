@@ -197,6 +197,7 @@ The world of cryptocurrency is confusing and many people want to join in on the 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 Actors:
+
 1.) Crypto Analyst (sender)
 
 2.) Crypto buyer (receiver)
