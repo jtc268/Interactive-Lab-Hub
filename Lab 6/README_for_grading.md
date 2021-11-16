@@ -111,7 +111,26 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+I saw a my capacitive touch sensors streaming data into MQTT explorer.
+
+<img width="604" alt="image" src="https://user-images.githubusercontent.com/89586838/141879338-002b9df2-922a-4578-ab21-922715a7816a.png">
+
+<img width="883" alt="image" src="https://user-images.githubusercontent.com/89586838/141879129-4e516e1d-78b8-4171-8205-37e042575067.png">
+
+<img width="777" alt="image" src="https://user-images.githubusercontent.com/89586838/141879165-e67bf494-cf9c-4a9c-b459-eee621b182ac.png">
+
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+I chose the distance sensor. The idea was to set a pokeball "trap" for Bagon the pokemon. If Bagon gets close enough to the trap, it could catch him! The sensor measures how far Bagon the pokemon was from my distance sensor and if he gets less than 50mm away, the trap would close on him. If you set a remote pokemon trap, you could monitor it and see when you wanted to try to catch! See video below of the test:
+
+##Bagon Trap Video!
+
+https://youtu.be/frU7MlvovEc
+
+<img width="734" alt="image" src="https://user-images.githubusercontent.com/89586838/141879185-6713669f-9e88-4c78-a3de-2302e93b99d3.png">
+
+<img width="816" alt="image" src="https://user-images.githubusercontent.com/89586838/141879206-113c77ce-b7e3-4804-9219-43ac6a8f9d8f.png">
 
 
 ### Part D
@@ -145,19 +164,47 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+Yes! I was successful running color.py and changing the color on one true colornet. I also received signals from classmates changing the color net and the right side of my screen changed color per the photo below.
+
+<img width="902" alt="image" src="https://user-images.githubusercontent.com/89586838/141878978-75bd4695-8969-4e3d-8c3f-0ac3cb65d852.png">
 
 ### Part E
 ### Make it your own
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
-**\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+**\*\*\*1. Explain your design\*\*\*** 
+
+The world of cryptocurrency is confusing and many people want to join in on the hype. Some just want to participate and others really want to make some money. The problem is, they don't have time to read about cryptocurrency trends all day to know when to invest. If a crypto analyst or other expert knew the time to buy a cryptocurrency, like dogecoin, they could tap a button on their desk to send the signal to others. The receiver of the signal could act on it how they wish. They would know it's a reliable signal from an expert. The expert would hit a button, and a single flash or strobing effect would alert the buyer to act on the recommendation. The whole screen changing color acts as an alert light on the buyer's desk.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
-**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+Actors:
+1.) Crypto Analyst (sender)
+2.) Crypto buyer (receiver)
 
-**\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+Input (capacitive touch sensor): Metal coin attached to capacitive touch center via alligator clip. Coin is attached to 3d printed "doge" figure so the analyst knows which coin they are recommending to buy. One touch = one flash on the recipient's screen. 
+
+Computation client 1, Crypto Analyst side: signal is processed and streamed to MQTT topic = 'IDD/joe/test/cap'
+<img width="508" alt="image" src="https://user-images.githubusercontent.com/89586838/141878453-dee60db0-4d59-4983-a592-ced6415ed4a7.png">
+
+Server side: message is posted "Dogecoin has been touched!"
+![image](https://user-images.githubusercontent.com/89586838/141878611-ff47f952-a98d-4a9a-ab52-e2dbcc442cdc.png)
+
+Computation client 2, Crypto buyer side: Detects new message "Dogecoin has been touched!" and script runs to light up OLED screen, indicating buy signal for Dogecoin.
+
+Output (OLED screen): Lights up every time the Dogecoin "button" is pressed from Client 1, Crypto Analyst.
+
+**\*\*\*3. Build a working prototype of the system.\*\*\***
+
+The coin attached to the 3d printed dog would be part of a crypto analyst's array of high profile coins one could buy. I imagine the 3d printed dog (doge) would stand out amongst others and the analyst would know that this means "dogecoin". They would tap the coin as the "button" to send the buy signal to the receivers.
+
+**\*\*\*4. Document the working prototype in use.\*\*\***
+
+##Dogecoin Buy Light Interaction Demo
+https://youtu.be/Opvp9KRdRm4
+
+Thanks to Agustin Forero (agf48) for being an awesome partner!
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
