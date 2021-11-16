@@ -111,11 +111,11 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
-I saw a my capacitive touch sensors streaming data into MQTT explorer.
+I saw a my capacitive touch sensors streaming data into MQTT explorer. One was a coin, and the other was a dogecoin.
 
 <img width="604" alt="image" src="https://user-images.githubusercontent.com/89586838/141879338-002b9df2-922a-4578-ab21-922715a7816a.png">
 
-<img width="883" alt="image" src="https://user-images.githubusercontent.com/89586838/141879129-4e516e1d-78b8-4171-8205-37e042575067.png">
+<img width="734" alt="image" src="https://user-images.githubusercontent.com/89586838/141879185-6713669f-9e88-4c78-a3de-2302e93b99d3.png">
 
 <img width="777" alt="image" src="https://user-images.githubusercontent.com/89586838/141879165-e67bf494-cf9c-4a9c-b459-eee621b182ac.png">
 
@@ -128,7 +128,8 @@ I chose the distance sensor. The idea was to set a pokeball "trap" for Bagon the
 
 https://youtu.be/frU7MlvovEc
 
-<img width="734" alt="image" src="https://user-images.githubusercontent.com/89586838/141879185-6713669f-9e88-4c78-a3de-2302e93b99d3.png">
+
+<img width="883" alt="image" src="https://user-images.githubusercontent.com/89586838/141879129-4e516e1d-78b8-4171-8205-37e042575067.png">
 
 <img width="816" alt="image" src="https://user-images.githubusercontent.com/89586838/141879206-113c77ce-b7e3-4804-9219-43ac6a8f9d8f.png">
 
