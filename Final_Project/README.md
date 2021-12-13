@@ -1,6 +1,6 @@
 ## Lumineer
 
-TL;DR? Skip Straight to the Videos below. Otherwise, check out the docs and process!
+TL;DR? Skip Straight to the Video Index below. Otherwise, check out the docs and process!
 
 ## Video Index
 - Full demo https://youtu.be/7WhpFnoeqFg
