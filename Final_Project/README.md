@@ -1,6 +1,6 @@
 ## Lumineer
 
-TLDR? Skip Straight to the Videos.
+TL;DR? Skip Straight to the Videos below. Otherwise, check out the docs and process!
 
 ## Video Index
 - Full demo https://youtu.be/7WhpFnoeqFg
@@ -8,7 +8,7 @@ TLDR? Skip Straight to the Videos.
 - Step Counter Test 2 https://youtu.be/JExaj05UZHY
 - Full Flow test - view of terminal and MQTT https://youtu.be/DcHa4ZB9qEw
 
-Otherwise, check out the docs and process!
+## Docs
 
 ![image](https://user-images.githubusercontent.com/89586838/145755375-17f29d3d-b9af-4040-90f8-dca42900eb03.png)
 ![image](https://user-images.githubusercontent.com/89586838/145755519-e33bf4c9-c69a-40ce-84a4-1a3d5cee6c57.png)
