@@ -143,6 +143,29 @@ Pulling shirt over the fanny pack simulated the final experience of a very small
 
 ![](https://user-images.githubusercontent.com/89586838/145918396-04baabc6-0852-4ef0-8106-5d961f815229.png)
 
-### Testing:
+### Testing and feedback
+
+*   The walker or main user couldn't always see the lights on their arm to enjoy the "party" or increasing status. While the intent was to show status to the outside world to inspire walking, this proved to be a lacking approach based on multiple comments when user testing. Users wanted to more easily see the light status.
+    *   To change this, I would either wrap a flexible LED strip around the sleeve of the shirt or integrate LEDs somewhere where the user could see them easier.
+*   People generally enjoyed the rainbow LED "party" when leveling up and thought it was fun.
+*   Feedback was mixed on the "level up". Generally people thought it was "cool", however that may not be a fully excited user. I couldn't gauge if this was rewarding for users and this would need to be further tested.
+    *   Perhaps something additional is needed as a reward for encouraging others to walk. This is a major thing to ask of users and the core purpose of the product - to spread walking virally via networking.
 
 ### Reflections and what I would improve on the next version
+
+Overall, this was an extremely fun project. It was my first time thinking through clothing design and lighting on clothes. To improve, I would change a few things on V2:
+
+*   Sew in wiring from fanny pack so the user isn't tickled by wiring on their back or arm
+*   Use MQTT more for testing from the beginning! I know I mentioned this before, but it's worth mentioning again. Triggering events remotely is a great way to test interactions early on in the design process and is invaluable. This can also be useful to trigger commands on a headless computer (no monitor or no way to remote into the computer)
+*   If possible, integrate a smaller computer completely in the shirt. Make a more "thin client" computer that only receives a Bluetooth signal of sorts.
+*   Think through the "following" or "subscribing" interaction. This needs to be some sort of app.
+    *   To follow someone, three ideas:
+        *   QR code scan on shirt
+        *   NFC tap on shirt to trigger app to follow from phone [https://www.amazon.com/NFC-tags/s?k=NFC+tags](https://www.amazon.com/NFC-tags/s?k=NFC+tags)
+        *   Simply looking up the user within an app environment, similar to following someone on Instagram
+
+After demoing this shirt and experience to 10+ people, I feel that the shirt created some delight with users. This may be something to explore further in terms of gamifying and _wearing_ your walking with LEDs.
+
+## Additional link to the full demo if you decided to read before watching [https://youtu.be/7WhpFnoeqFg](https://youtu.be/7WhpFnoeqFg)
+
+Thanks for reading and please don't hesitate to reach out with questions or feedback.
