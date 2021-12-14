@@ -57,7 +57,7 @@ This is a game of walking in 1 mile chunks. You gain your "entry level" / level 
 *   User 1 proceeds to invite another person to walk, User 3
 *   User 3 walks a mile
     *   User 1 is, again, rewarded by a "party" on their LEDs and levels up to level 3 (a new color)
-*   All users can invite others to walk in order to level up their 
+*   All users can invite others to walk in order to level up their
 
 Not only can users fill their meter (e.g. close their Apple Watch "activity rings"), but they can upgrade there "encouragement status" via leveling up by inviting other users to walk. This encourages users to motivate others and improve everyone's health. Users that are invited will feel motivated to walk in order to cause a fun party on their motivator's arm and level them up. There's a sense of fun obligation. There's also a sense of needing to "nudge" the invited person to finish their mile, so it actually gets done! The project started out with trouble motivating myself to walk each day. I feel this user experience could help.
 
@@ -95,13 +95,11 @@ If you were to recreate this yourself, you would have to host your own MQTT serv
 
 Link to code [https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Final_Project/v6_wearable_walking_meter.py](https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Final_Project/v6_wearable_walking_meter.py)
 
-Notes while coding:
+Notes while coding and testing:
 
-*   Tweaks were available for brightness of the LED stick. Staring directly at it was painful to the eyes on max brightness "31". Turn it down below 10 so you don't scorch your eyes.
-
-Notes if I were to do this again:
-
-## Parts Requirement List
+*   Tweaks were available for brightness of the LED stick. Staring directly at it was painful to the eyes on max brightness "31". Turn it down below 10 so you don't scorch your eyes. Line 44 `stick.set_all_LED_brightness(31)`
+*   Use MQTT to design commands to "wizard" or test interactions for product design. It's much more useful than stepping to get the accelerometer to increment up to the desired LED light bar status in order for other interactions to occur. This tests and end-to-end internet enabled experience from the beginning and technically sets you up for a shippable app.
+*   Sometimes the 6050 accelerometer would go "out of whack" and start to log steps when I was not stepping, even when the device was secure and stable in the fanny pack. It's worth spending extra time to set thresholds to upgrade the accuracy of the step counter.
 
 ### Visual System Design using Universal Modeling Language
 
@@ -111,6 +109,40 @@ Referencing the [core python program](https://github.com/jtc268/Interactive-Lab-
 
 ### Building the shirt and attaching the computer to the human
 
-The LED light stick stuck inside shirt with duct tape (Quite resilient and integrated feel! I wore the shirt for an entire day and forgot the light stick was inside. There were no issues of the light stick falling off.)
+The LED light stick stuck inside shirt with duct tape (Quite resilient and integrated feel! I wore the shirt for an entire day and forgot the light stick was inside. There were no issues of the light stick falling off.) You must connect a longer I2C cable to this LED light stick from the fanny pack. (shown later) The wire connection port on the LED stick should be on the bottom side of the LED stick (facing down on the sleeve) to work correctly with this code.
 
 ![](https://user-images.githubusercontent.com/89586838/145911731-312efa22-f0bc-4bba-90d4-72251f435bb3.png)
+
+With the stick attached, I needed to attach a a battery, pi, wiring, etc. to a human. This items are rather heavy to be sewn or taped into a shirt and I didn't want the stretch effect on the shirt. Using a fanny pack with a shirt draped over it ended up being the way forward for this case. See the below photo blog on building the fanny pack system, to then be wired to the shirt:
+
+![](https://user-images.githubusercontent.com/89586838/145917537-0929620c-c074-4501-ab23-6d09254f46ab.png)
+
+![](https://user-images.githubusercontent.com/89586838/145917837-ab0fc1b4-409f-42d4-b083-6bb37ec34d9a.png)
+
+![](https://user-images.githubusercontent.com/89586838/145917672-90a4910e-0406-404e-927e-506c7d94d021.png)
+
+![](https://user-images.githubusercontent.com/89586838/145917742-d29520fb-f1f7-45d9-ba13-30aef4182517.png)
+
+![](https://user-images.githubusercontent.com/89586838/145917953-c872b313-5d97-47c7-8b74-38fe9da4b39d.png)
+
+Eventually, a hole can be made through the fanny pack to integrate this single connection to the shirt more cleanly.
+
+### Examples of final looks:
+
+Thanks to Jennie for user testing this product!
+
+![](https://user-images.githubusercontent.com/89586838/145918099-a46561a3-510f-4d1b-a3b5-0c08aca689d5.png)
+
+I wanted a subtle feel with the LEDs, not too loud. (for users that want a minimalist aesthetic) So I chose a black shirt. While hard to see, I feel people may have a higher chance at wearing this. I found a shirt an Uniqlo that embodied the design language. (Dots) 
+
+![](https://user-images.githubusercontent.com/89586838/145918236-979a1557-85ec-4c2d-bf8b-64b31d8d583a.png)
+
+Pulling shirt over the fanny pack simulated the final experience of a very small electronic integration, with lights you can hardly feel in the shirt. Wearing the shirt all day, I forgot the lights were even attached. It was great.
+
+![](https://user-images.githubusercontent.com/89586838/145918543-25e412e2-bffe-48de-bcd6-3173a13fd4b7.png)
+
+![](https://user-images.githubusercontent.com/89586838/145918396-04baabc6-0852-4ef0-8106-5d961f815229.png)
+
+### Testing:
+
+### Reflections and what I would improve on the next version
