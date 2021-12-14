@@ -171,6 +171,7 @@ Overall, this was an extremely fun project. It was my first time thinking throug
         *   QR code scan on shirt
         *   NFC tap on shirt to trigger app to follow from phone [https://www.amazon.com/NFC-tags/s?k=NFC+tags](https://www.amazon.com/NFC-tags/s?k=NFC+tags)
         *   Simply looking up the user within an app environment, similar to following someone on Instagram
+*   While I did try to integrate a second raspberry pi into the system, I ended up bricking the device (to my knowledge) by trying to update the kernal to be compatible with an I2C bus. Perhaps the pi can be recovered. I spent too much time on setting up a 2nd pi and wish I put more work into the overall product design as a trade for this time, as MQTT could replace the 2nd pi to replicate the intended user experience.
 
 After demoing this shirt and experience to 10+ people, I feel that the shirt created some delight with users. This may be something to explore further in terms of gamifying and _wearing_ your walking with LEDs.
 
