@@ -89,11 +89,19 @@ With Labels:
 
 ### Writing and testing the app
 
-Simple IF and WHILE loops were used to taking readings from the accelerometer and trigger the LED light stick to fill up. Here is a video testing the initial step counter system, triggering the LED light stick to fill up [https://youtu.be/9p4TcYc1kkY.](https://youtu.be/9p4TcYc1kkY.) For other users to get involved, I used MQTT server. Luckily, the server was already hosted by an individual at my university. I simply used the server to create brokers and subscribers [https://mqtt.org/.](https://mqtt.org/.) This was extremely useful for testing, as I could trigger certain interactions to test without walking a mile! For example, I could trigger the action remotely of User 2 walking a mile by simply "publishing" a command from MQTT, see video here - full Flow test - view of terminal and MQTT [https://youtu.be/DcHa4ZB9qEw](https://youtu.be/DcHa4ZB9qEw)
+Link to code [https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Final_Project/v6_wearable_walking_meter.py](https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Final_Project/v6_wearable_walking_meter.py)
+
+Simple IF and WHILE loops were used to taking readings from the accelerometer and trigger the LED light stick to fill up. Here is a video testing the initial step counter system, triggering the LED light stick to fill up [https://youtu.be/9p4TcYc1kkY.](https://youtu.be/9p4TcYc1kkY.) For other users to get involved, I used MQTT server. Luckily, the server was already hosted by an individual at my university. I simply used the server to create brokers and subscribers [https://mqtt.org/.](https://mqtt.org/.) This was extremely useful for testing, as I could trigger certain interactions to test without walking a mile! For example, I could trigger the action remotely of User 2 walking a mile by simply "publishing" a command from MQTT, see video - full Flow test - view of terminal and MQTT [https://youtu.be/DcHa4ZB9qEw](https://youtu.be/DcHa4ZB9qEw)
+
+How to trigger a "walking rainbow" from [https://qwiic-led-stick-py.readthedocs.io/en/latest/ex8.html](https://qwiic-led-stick-py.readthedocs.io/en/latest/ex8.html) 
+
+Below is a guide on what MQTT commands could be published in this app. Again, see this [video](https://youtu.be/DcHa4ZB9qEw) for a demo (same as above)
+
+![](https://user-images.githubusercontent.com/89586838/145921530-09f2a1ca-0e5b-42c2-b6b9-a1a316fab45a.png)
+
+In the final system design, user "jumpluff" and "sneasel" would actually be other shirts or people you follow. Once they walk a mile, a signal would be sent to MQTT, which User 1 is subscribed to. User 1 could react to an event sent by other users, creating the Lumineer network.
 
 If you were to recreate this yourself, you would have to host your own MQTT server with an always on machine that had availability outside of your network, just like any other web server.
-
-Link to code [https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Final_Project/v6_wearable_walking_meter.py](https://github.com/jtc268/Interactive-Lab-Hub/blob/Fall2021/Final_Project/v6_wearable_walking_meter.py)
 
 Notes while coding and testing:
 
